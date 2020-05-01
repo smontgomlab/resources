@@ -38,11 +38,11 @@ The first time you add this line to your `~/bash*` file, you have to run `source
 Home directory quota is fixed at 32GB. Just about the only thing that should be there is software that you install.  
 
 ### Lab directory 
-  - Currently: `/labs/smontgom/`  
-  - After April 3, 2020: `/oak/stanford/groups/smontgom`  
-  - Most of your files should be in `${LAB_DIR}/SUNETID`. The first time you log into SCG, you will have to make your personal directory in `/labs/smontgom/` 
+  - `/oak/stanford/groups/smontgom`  
+  - Most of your files should be in `/oak/stanford/groups/smontgom/SUNETID`. The first time you log into SCG, you will have to make your personal directory in `/oak/stanford/groups/smontgom/` 
   - Shared lab data sets are in `${LAB_DIR}/shared` 
-  - Check the lab quota with `lfs quota -h -g scg_lab_smontgom /oak` (will change to `lfs quota -h -g lab_smontgom /oak` after April 3, 2020)
+  - Check the lab quota with `lfs quota -gh oak_smontgom /oak`
+
 
 ### Scratch space  
 Every node on has SCG (both login and batch) has scratch space mounted at `/tmp`.  This scratch is available only to that node, and the files you create there are visible only to your user.  You have to copy anything you want to save **back to Oak** if you want to be able to access it from other nodes or allow other users to see it.  
