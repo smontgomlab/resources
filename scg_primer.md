@@ -2,6 +2,12 @@
 
 See [this SCG orientation and quick reference manual](https://github.com/smontgomlab/resources/blob/master/scg_primer.md) for universal SCG tips. This documentation has some Montgomery Lab-specific SCG info. 
 
+### Table of Contents
+  - [Lab directory](#lab-directory)
+  - [Interactive sessions](#interactive-session-like-durga)
+  - [BILLED `batch` partition](#billed-batch-partition)
+  - [Mount files locally with `samba`](#mount-files-locally-with-samba)
+
 ### Lab directory 
   - `/oak/stanford/groups/smontgom`  
   - Most of your files should be in `/oak/stanford/groups/smontgom/SUNETID`. The first time you log into SCG, you will have to make your personal directory in `/oak/stanford/groups/smontgom/` 
