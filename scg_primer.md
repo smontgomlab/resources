@@ -49,3 +49,11 @@ module load miniconda/3
 python some_python_script.py # this is the process I want to run with the sbatch script 
 ``` 
 Then submit the job using `sbatch test_sbatch.sh`. 
+
+### Mount files locally with `samba`
+To mount `/oak/stanford/groups/smontgom` files locally, take the following steps (at least on Mac, not sure about Windows):   
+1. In terminal: `kinit sunetid@stanford.edu`  
+2. Finder Go > Connect to Server > `smb://oak-smb-smontgom.stanford.edu`  
+3. Select `groups`  
+
+Done! Find `oak-smb-smontgom.stanford.edu` under `Locations` in your finder. You can now view files, edit scripts in your favorite non-terminal text editor, easily upload/download small files, etc.  
