@@ -9,7 +9,7 @@ See [this SCG orientation and quick reference manual](https://github.com/smontgo
   - Check the lab quota with `lfs quota -gh oak_smontgom /oak`
   - See [this dashboard](https://srcc-lookout.stanford.edu/oak/smontgom) for a user-level breakdown of usage in `/oak/stanford/groups/smontgom/` 
 
-#### Interactive session like durga 
+### Interactive session like durga 
 1. Start a `screen`/`tmux` session (you should do this for any process that you expect to take more than a minute in case your connection to SCG is interrupted)  
 2. Launch a job in the `interactive` partition (24-hour time limit)
     ```bash 
