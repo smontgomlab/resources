@@ -4,7 +4,7 @@ See [this SCG orientation and quick reference manual](https://github.com/smontgo
 
 ### Table of Contents
   - [Lab directory](#lab-directory)
-  - [Interactive sessions](#interactive-session-like-durga)
+  - [Interactive sessions like durga](#interactive-session-like-durga)
   - [BILLED `batch` partition](#billed-batch-partition)
   - [Mount files locally with `samba`](#mount-files-locally-with-samba)
 
