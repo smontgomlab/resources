@@ -58,8 +58,9 @@ Then submit the job using `sbatch test_sbatch.sh`.
 
 ### Mount files locally with `samba`
 To mount `/oak/stanford/groups/smontgom` files locally, take the following steps (at least on Mac, not sure about Windows):   
-1. In terminal: `kinit sunetid@stanford.edu`  
-2. Finder Go > Connect to Server > `smb://oak-smb-smontgom.stanford.edu`  
-3. Select `groups`  
+1. Connect to [VPN](https://uit.stanford.edu/service/vpn)  
+2. In terminal: `kinit sunetid@stanford.edu`  
+3. Finder Go > Connect to Server > `smb://oak-smb-smontgom.stanford.edu`  
+4. Select `groups`  
 
 Done! Find `oak-smb-smontgom.stanford.edu` under `Locations` in your finder. You can now view files, edit scripts in your favorite non-terminal text editor, easily upload/download small files, etc.  
